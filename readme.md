@@ -13,7 +13,7 @@ Documentación: Registro del proceso de aprendizaje sobre el ciclo de vida de lo
 Clonar el repositorio:
 
 Bash
-git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git
+git clone https://github.com/gonzafc/Docker.git
 Construir las imágenes:
 Dentro de la carpeta de cada ejercicio, ejecuta:
 
