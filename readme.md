@@ -1,4 +1,3 @@
-Repositorio de Docker
 Bienvenido a mi repositorio dedicado al seguimiento y desarrollo de los ejercicios prácticos de la materia Docker.
 
 Aquí encontrarás todos los archivos, configuraciones (Dockerfile) y scripts necesarios para el despliegue de las soluciones abordadas durante el curso.
