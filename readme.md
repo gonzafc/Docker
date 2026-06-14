@@ -1,13 +1,13 @@
 Bienvenido a mi repositorio dedicado al seguimiento y desarrollo de los ejercicios prácticos de la materia Docker.
 
-Aquí encontrarás todos los archivos, configuraciones (Dockerfile) y scripts necesarios para el despliegue de las soluciones abordadas durante el curso.
+Aquí encontrarás todos los archivos, configuraciones y scripts necesarios para el despliegue de las soluciones abordadas durante el curso.
 
 🛠️ Contenido del Repositorio
-Ejercicios Prácticos: Implementación de contenedores basados en imágenes de Nginx y otras tecnologías.
+Ejercicios Prácticos
 
-Configuraciones: Archivos Dockerfile utilizados para la creación de imágenes personalizadas.
+Configuraciones
 
-Documentación: Registro del proceso de aprendizaje sobre el ciclo de vida de los contenedores (run, stop, rename, rm).
+Documentación
 
 🚀 Cómo utilizar este repositorio
 Clonar el repositorio:
@@ -23,8 +23,11 @@ Ejecutar los contenedores:
 
 Bash
 docker run -d -p 8081:80 --name nombre_contenedor nombre_de_imagen:etiqueta
+
+Al usar un contenedor con docker-compose.yml, se debe usar docker compose up .
+
 👨‍💻 Autor
 Gonzalo Romero
-Estudiante de la carrera de Ingeniería en Sistemas - Universidad Autónoma de Entre Ríos (UADER).
+Estudiante de la carrera de Licenciatura en Sistemas - Universidad Autónoma de Entre Ríos (UADER).
 
 Este proyecto forma parte de mi formación académica y profesional.
