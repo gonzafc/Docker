@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  webtp3:
+    image: indextp3
+    ports:
+      - "8081:80"
+    networks:
+      - my_network
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 512M
+    secrets:
+      - cosas_secretas
+
+networks:
+  my_network:
+    driver: bridge
+secrets:
+  cosas_secretas:
+    file: ./cosas_secretas/contraseña.txt

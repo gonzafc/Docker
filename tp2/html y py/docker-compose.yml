@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  web:
+    build: ./html
+    ports:
+      - "8081:80"
+  app:
+    build: ./py
+    ports:
+      - "5002:5000"
+
+networks:
+  red_tp2:

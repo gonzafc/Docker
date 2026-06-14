@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  app:
+    build: ./app
+    networks:
+      - app_network
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    networks:
+      - app_network
+networks:
+  app_network:
